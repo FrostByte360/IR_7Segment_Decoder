@@ -1,3 +1,19 @@
+/*=============================================================
+                    IR 7-SEGMENT DECODER
+===============================================================
+Description:
+    This program demonstrates infrared sensor input signals,
+    allowing each incremental sensor signal count to be
+    displayed on two 7-segment displays, representing one's
+    and ten's.
+    
+Programmer:
+    Mark Garcia
+
+Date:
+    26 Oct 2026
+*/
+
 // GPIO Pins
 const uint8_t IR_PIN = 36;
 
