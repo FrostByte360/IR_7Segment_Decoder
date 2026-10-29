@@ -40,7 +40,7 @@ void decoder(int &previousState) {
         displayCounter(ir_counter);
     }
 
-    x = currentState;
+    previousState = currentState;
 
     delay(20);
 }
